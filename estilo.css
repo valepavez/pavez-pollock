@@ -6,41 +6,54 @@
 body{
 	background:rgba(255,255,255,1);
 	color:rgba(25,25,25,1);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight:300;
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+	font-family: 'Dosis', sans-serif;
+	font-weight:700;
 }
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	color:rgba(112,58,80,0.9);
+
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
-	text-shadow: 1px 1px 0 #999;
-	text-align:center;		
+	letter-spacing:0.02em;
+	color:rgba(155,81,91,0.6);
+	padding:0.2em 0;
+
+	text-align:center;
 }
 
 h3{
-	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
-	padding:2em 0 0.6em 0; 
-	text-shadow: 1px 1px 0 #ccc;
-	text-align:center;	
+	letter-spacing:0.2em;
+	color:rgba(68,40,58,0.9);
+	padding:2em 0 0.6em 0;
+
+	text-align:center;
 }
 
-h4, h5, h6{
+h4, h6{
 	font-weight:left;
-	font-weight:600; 	
+	font-weight:600;
+	color:rgba(112,58,80,0.9);
+}
+
+h5{
+	font-weight:left;
+	font-weight:600;
+	color:rgba(212,131,138,0.9);
+}
+
+p{
+	font-weight:left;
+	font-weight:600;
+	color:rgba(155,81,91,0.9);
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -77,24 +90,24 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:white;
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color:rgba(221,182,163,0.9);
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(255,0,0,1);
+	color:rgba(212,131,138,0.9);
 	text-decoration:underline;
 }
 
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(225,250,239,0);
 	background-image:url('media/dupla-01.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
@@ -111,7 +124,7 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
+	background-color:rgba(225,250,239,0);
 	background-image:url('media/dupla-02.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -154,15 +167,15 @@ video{
 }
 
 .item figure img{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:-4px;
 	filter: grayscale(1);
 }
 
 .item:hover figure img{
 	transform:scale(1.25);
-	filter: grayscale(0);	
+	filter: grayscale(0);
 	transition:all ease-out 0.5s;
 }
 
@@ -182,8 +195,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'Dosis', sans-serif;
+	font-weight:700;
 }
 
 footer p{
